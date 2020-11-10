@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-// import styles from './button.module.css';
-import styles from './button.module.scss';
-import classNames from 'classnames/bind';
+// import styles from "./button.module.css";
+import styles from "./Button.module.scss";
+import classNames from "classnames/bind";
 
 /**
  * Primary UI component for user interaction
@@ -41,7 +41,7 @@ Button.propTypes = {
   /**
    * How large should the button be?
    */
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(["small", "medium", "large"]),
   /**
    * Button contents
    */
@@ -55,6 +55,6 @@ Button.propTypes = {
 Button.defaultProps = {
   backgroundColor: null,
   primary: false,
-  size: 'medium',
+  size: "medium",
   onClick: undefined,
 };
